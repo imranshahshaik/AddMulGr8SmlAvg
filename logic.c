@@ -6,10 +6,10 @@ int main()
 {
     int a,b,c,n,sum,mul;
     float avg;
-    printf("enter 3 digits to compare\n");
+    printf("ENTER 3 DIGITS TO COMPARE\n");
     scanf("%d,%d,%d",&a,&b,&c);
 
-    printf("choose any 1 option\n");
+    printf("CHOOSE ANY 1 OPTION\n");
     printf("1. ADD 3 digits\n");
     printf("2. MULTIPLY 3 digits\n");
     printf("3. FIND GREATEST\n");
@@ -20,12 +20,12 @@ int main()
     {
        case 1:
        sum=a+b+c;
-       printf("SUM is %d",sum);
+       printf("SUM IS %d",sum);
        break;
 
        case 2:
        mul=a*b*c;
-       printf("MUL is %d",mul);
+       printf("MUL IS %d",mul);
        break;
 
        case 3:
